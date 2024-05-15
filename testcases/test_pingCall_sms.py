@@ -26,14 +26,14 @@ class Test_Ping:
         for i in range(5):
             self.sms_dv1.open_Msg()
             self.sms_dv1.compose_msg()
-            self.sms_dv1.enter_number('+919466960314')
+            self.sms_dv1.enter_number('+919316074201')
             self.sms_dv1.type_Msg()
             self.sms_dv1.send_Msg_Verify()
-            time.sleep(2)
+            time.sleep(5)
             self.sms_dv2.homepage()
             self.sms_dv2.open_Msg()
             self.sms_dv2.compose_msg()
-            self.sms_dv2.enter_number('+918607727452')
+            self.sms_dv2.enter_number('+919345172586')
             self.sms_dv2.type_Msg()
             self.sms_dv2.send_Msg_Verify()
 
