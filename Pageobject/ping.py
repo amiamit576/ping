@@ -128,13 +128,20 @@ class Ping_Action:
 
         except NoSuchElementException:
             waitt0EndAdd=WebDriverWait(self.driver,30)
-            waitt0EndAdd.until(Ec.visibility_of_element_located((AppiumBy.XPATH,self.cross_x_xp))).click()
+            waitt0EndAdd.until(Ec.visibility_of_element_located((AppiumBy.XPATH,self.cross_x_xp)))
             try:
                 another_cross=self.driver.find_element(AppiumBy.XPATH, self.cross_x_xp)
-                if another_cross.is_displayed():
-                    another_cross.click()
+                another_cross.click()
+
+
+
             except:
-                print("already clicked")
+                close_element = self.driver.find_element(AppiumBy.XPATH, self.close_add_xp)
+                if close_element.is_displayed():
+                    close_element.click()
+                else:
+                        print("Another type of Add appear")
+
             time.sleep(3)
             self.check_resultpage(mail)
 
