@@ -20,7 +20,7 @@ def setup():
 capabilitie = dict(
     platformName='Android',
     automationName='uiautomator2',
-    udid='1a77dc8',
+    udid='8eae9797',
     ignoreHiddenApiPolicyError = 'true',
     noReset = 'true'
       )

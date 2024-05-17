@@ -22,10 +22,7 @@ class Clear_all:
     def clearAll(self):
         self.driver.execute_script('mobile: pressKey', {"keycode": 187})
         self.driver.find_element(AppiumBy.XPATH,self.close_all_btn_Xp).click()
-        time.sleep(10)
-        self.driver.execute_script('mobile: pressKey', {"keycode": 3})
-
-        wait_for_enable=WebDriverWait(self.driver,15)
+        wait_for_enable=WebDriverWait(self.driver,30)
         wait_for_enable.until(Ec.visibility_of_element_located((AppiumBy.XPATH,self.element_on_home_xp)))
         self.driver.find_element(AppiumBy.XPATH,self.phone_xp).click()
 
