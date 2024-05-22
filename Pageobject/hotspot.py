@@ -38,13 +38,13 @@ class Hotspot:
 
         # if google password confirmation box appear
         cancel_xp='//android.widget.Button[@resource-id="android:id/button1"]'
-        confirmationbo_xp='//android.widget.Button[@resource-id="android:id/autofill_dialog_no"]'
+        auto_fill_popup_cancel_btn_xp='//android.widget.Button[@resource-id="android:id/autofill_dialog_no"]'
         # if  connection fail
         connection_fail_status_xp='//android.widget.TextView[@resource-id="com.oplus.wirelesssettings:id/alertTitle"]'
         connection_fail_btn_xp='//android.widget.Button[@resource-id="android:id/button1"]'
 
         # connection status
-        selected_network_xp='//android.widget.TextView[@resource-id="android:id/title" and @text="realme GT 6"]'
+        selected_network_xp='//android.widget.TextView[@resource-id="android:id/title" and @text="{hotspot_name}"]'
         # confirm by getting text
         statussummary_xp='//android.widget.TextView[@resource-id="com.oplus.wirelesssettings:id/wifi_status_summary"]'
 
@@ -131,6 +131,55 @@ class Hotspot:
             self.driver.find_element(AppiumBy.XPATH,self.add_hotspotname_xp).send_keys(hotspot_name)
             time.sleep(1)
             self.driver.find_element(AppiumBy.XPATH,self.add_password_xp).send_keys(hotspot_psw)
+
+            try:
+                save_option=self.driver.find_element(AppiumBy.XPATH,self.save_button)
+                if save_option.is_enabled() :
+                    save_option.click()
+                else :
+                    password_length=len(hotspot_psw)
+                    if password_length>=8:
+                        print("Password  is  already  set")
+                    else:
+                        print("password is short")
+            except:
+                print("save option is not enabled")
+            # In case worg password
+            try:
+                pw_error_msg=self.driver.find_element(AppiumBy.XPATH,self.connection_fail_status_xp)
+                error_sts=pw_error_msg.get_attribute("displayed")
+                if error_sts=='true':
+                    self.driver.find_element(AppiumBy.XPATH,self.connection_fail_btn_xp).click()
+                    print("Correct your password")
+            except:
+                print("you are already connected")
+
+
+        def verify_connection(self):
+            global hotspot_name
+            time.sleep(5)
+            self.driver.find_element(AppiumBy.XPATH,self.selected_network_xp).click()
+            time.sleep(2)
+            sts_summary=self.driver.find_element(AppiumBy.XPATH,self.statussummary_xp).text
+            if sts_summary == "Connected":
+                print("Connected")
+
+            else:
+                print("not connected")
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

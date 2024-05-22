@@ -5,7 +5,7 @@ import pytest
 capabilities = dict(
     platformName='Android',
     automationName='uiautomator2',
-    udid='fa499298',
+    udid='1a565c34',
     ignoreHiddenApiPolicyError = 'true',
     noReset = 'true'
       )
@@ -20,7 +20,7 @@ def setup():
 capabilitie = dict(
     platformName='Android',
     automationName='uiautomator2',
-    udid='8eae9797',
+    udid='d695bb5d',
     ignoreHiddenApiPolicyError = 'true',
     noReset = 'true'
       )
