@@ -18,8 +18,9 @@ class Youtube():
     select_options_xp='//android.widget.TextView[@resource-id="com.google.android.youtube:id/text"]'
     select_vedio_xp='//android.view.ViewGroup[@content-desc="Musafir - 1957 - मुसाफिर l Bollywood Vintage Hit Movie l Suchitra Sen , Shekhar , Nirupa Roy – 2 hours, 15 minutes – Go to channel – LegendaryKishoreKumar - 8K views - 20 hours ago – play video"]/android.view.ViewGroup[1]/android.widget.ImageView'
     selected_vedio_options_Uiselector='new UiSelector().className("android.view.ViewGroup").instance(3)'
-    expand_screen_intr_xp='//android.view.ViewGroup[@content-desc="Expand Mini Player"]/android.widget.FrameLayout[11]/android.widget.FrameLayout/android.view.ViewGroup'
-    skip_add_xp='//android.widget.FrameLayout[@content-desc="Video player"]'
+    control_button_grp_xp='//android.widget.RelativeLayout[@resource-id="com.google.android.youtube:id/controls_button_group_layout"]'
+    skip_add_xp='//android.widget.ImageView[@resource-id="com.google.android.youtube:id/skip_ad_button_icon"]'
+    another_vedio_instance_ui='new UiSelector().className("android.view.ViewGroup").instance(20)'
 
 
 
@@ -70,6 +71,15 @@ class Youtube():
         except NoSuchElementException:
             time.sleep(3)
             print("no skip add button appear")
+        try:
+            control_btn=self.driver.find_element(AppiumBy.XPATH,self.control_button_grp_xp)
+            if control_btn.is_displayed() :
+                print("vedio is started")
+        except NoSuchElementException:
+            self.driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,self.another_vedio_instance_ui).click()
+            
+
+
 
 
 
@@ -93,11 +103,22 @@ class Youtube():
         count=0
         for i in range (10):
             time.sleep(45)
+            try:
+                time.sleep(5)
+                self.driver.find_element(AppiumBy.XPATH, self.skip_add_xp).click()
+            except NoSuchElementException:
+                time.sleep(3)
+                print("no skip add button appear")
+
             self.driver.execute_script('mobile: doubleClickGesture', {'x': 629, 'y': 496})
             try:
                 self.driver.find_element(AppiumBy.XPATH,self.more_vedioes_xp).click()
-            except (NoSuchElementException):
-                self.driver.execute_script('mobile: doubleClickGesture', {'x': 1013, 'y': 589})
+            except (NoSuchElementException,StaleElementReferenceException) as e:
+                if isinstance(e,StaleElementReferenceException) :
+                    self.driver.execute_script('mobile: doubleClickGesture', {'x': 1013, 'y': 589})
+                    self.driver.execute_script('mobile: doubleClickGesture', {'x': 1013, 'y': 589})
+                if isinstance(e,NoSuchElementException) :
+                    self.driver.execute_script('mobile: doubleClickGesture', {'x': 1013, 'y': 589})
             count+=1
             print("total count",count)
         self.driver.back()

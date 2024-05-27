@@ -29,6 +29,7 @@ class Hotspot:
 
         #===============================================Device2 Xpath==============================================================
         wifi_options='//android.widget.TextView[@resource-id="android:id/title" and @text="Wi-Fi"]'
+        enable_wifi_options_xp='//android.widget.Switch[@resource-id="android:id/switch_widget"]'
         addnetwork_xp='//android.widget.TextView[@resource-id="android:id/title" and @text="Add network"]'
         add_hotspotname_xp='(//android.widget.LinearLayout[@resource-id="com.oplus.wirelesssettings:id/edittext_container"])[2]/android.widget.EditText'
         add_password_xp='(//android.widget.LinearLayout[@resource-id="com.oplus.wirelesssettings:id/edittext_container"])[4]/android.widget.EditText'
@@ -42,9 +43,10 @@ class Hotspot:
         # if  connection fail
         connection_fail_status_xp='//android.widget.TextView[@resource-id="com.oplus.wirelesssettings:id/alertTitle"]'
         connection_fail_btn_xp='//android.widget.Button[@resource-id="android:id/button1"]'
+        save_password_popup_xp='//android.widget.TextView[@resource-id="android:id/autofill_save_no"]'
 
         # connection status
-        selected_network_xp='//android.widget.TextView[@resource-id="android:id/title" and @text="{hotspot_name}"]'
+        selected_network_xp='(//android.widget.ImageView[@resource-id="com.oplus.wirelesssettings:id/signal"])[1]'
         # confirm by getting text
         statussummary_xp='//android.widget.TextView[@resource-id="com.oplus.wirelesssettings:id/wifi_status_summary"]'
 
@@ -115,7 +117,7 @@ class Hotspot:
             hotspot_psw=psw
             print(hotspot_psw)
             self.driver.back()
-            self.driver.back()
+            self.driver.execute_script('mobile: pressKey', {"keycode": 3})
             self.driver.back()
 
 
@@ -124,8 +126,19 @@ class Hotspot:
             global hotspot_psw
             self.driver.find_element(AppiumBy.XPATH,self.wifi_options).click()
             time.sleep(1)
-            self.driver.swipe(523, 2308, 523, 350)
-            #self.driver.swipe(523, 2308, 523, 350)
+            try:
+                wifienable=self.driver.find_element(AppiumBy.XPATH,self.enable_wifi_options_xp)
+
+                enable_status=wifienable.get_attribute('checked')
+                if enable_status =='false':
+                    wifienable.click()
+                else :
+                    print("wifi is enabled")
+
+            except:
+                    print("wifi selection  otion is not available")
+            self.driver.swipe(523, 2308, 523, 300)
+            #self.driver.swipe(523, 2308, 523, 300)
             self.driver.find_element(AppiumBy.XPATH,self.addnetwork_xp).click()
             time.sleep(1)
             self.driver.find_element(AppiumBy.XPATH,self.add_hotspotname_xp).send_keys(hotspot_name)
@@ -157,6 +170,11 @@ class Hotspot:
 
         def verify_connection(self):
             global hotspot_name
+            try:
+                self.driver.find_element(AppiumBy.XPATH,self.save_password_popup_xp).click()
+            except NoSuchElementException:
+                    print("popup Doesnot  Appear")
+
             time.sleep(5)
             self.driver.find_element(AppiumBy.XPATH,self.selected_network_xp).click()
             time.sleep(2)
@@ -166,6 +184,13 @@ class Hotspot:
 
             else:
                 print("not connected")
+
+            self.driver.back()
+            self.driver.execute_script('mobile: pressKey', {"keycode": 3})
+            self.driver.back()
+
+
+
                 
 
 
