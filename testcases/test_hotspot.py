@@ -25,7 +25,7 @@ class Test_Hotspot:
         time.sleep(1)
         self.hotspt.enable_hotspot()
         time.sleep(1)
-        self.hotspt.change_setting('1234560986')
+        self.hotspt.change_setting('123456099')
         time.sleep(5)
         self.connect=Hotspot(self.driver2)
         time.sleep(1)

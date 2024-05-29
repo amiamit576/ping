@@ -3,6 +3,8 @@ import time
 from  appium import  webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common import NoSuchElementException
+from  UTILITY.customlogger import  LogGen
+
 
 
 class Hotspot:
@@ -51,6 +53,9 @@ class Hotspot:
         statussummary_xp='//android.widget.TextView[@resource-id="com.oplus.wirelesssettings:id/wifi_status_summary"]'
 
 
+        logger=LogGen.loggen()
+
+
         def __init__(self,driver):
             self.driver=driver
 
@@ -61,6 +66,7 @@ class Hotspot:
         def open_setting(self):
             try:
                 self.driver.find_element(AppiumBy.XPATH,self.setting_icon_xp).click()
+
             except:
                 self.driver.swipe(523, 2308, 523, 686)
                 time.sleep(1)
@@ -68,22 +74,25 @@ class Hotspot:
                 self.driver.find_element(AppiumBy.XPATH, self.setting_icon_xp).click()
 
         def open_hotspot(self):
+
             self.driver.find_element(AppiumBy.XPATH,self.connection_and_sharing_xp).click()
             time.sleep(1)
             self.driver.find_element(AppiumBy.XPATH,self.personal_hotspot_xp).click()
-            print("hello")
+            self.logger.info("Opend Hotspot")
+
 
 
         def enable_hotspot(self):
 
               scroll_btn=self.driver.find_element(AppiumBy.XPATH,self.hotspot_on_off_btn_xp)
-              print("btn text")
+              self.logger.info("check on or off")
               scroll_status=scroll_btn.get_attribute('checked')
               if scroll_status=='false':
                 scroll_btn.click()
               else:
                   print("Hotspot Already on")
               time.sleep(3)
+
 
         def change_setting(self,psw):
             global hotspot_name
@@ -119,11 +128,13 @@ class Hotspot:
             self.driver.back()
             self.driver.execute_script('mobile: pressKey', {"keycode": 3})
             self.driver.back()
+            self.logger.info("changed the setting  of hotspot")
 
 
         def connect_other(self):
             global hotspot_name
             global hotspot_psw
+            self.logger.info(" changed the device ")
             self.driver.find_element(AppiumBy.XPATH,self.wifi_options).click()
             time.sleep(1)
             try:
@@ -137,7 +148,7 @@ class Hotspot:
 
             except:
                     print("wifi selection  otion is not available")
-            self.driver.swipe(523, 2308, 523, 300)
+            self.driver.swipe(523, 2308, 523, 50)
             #self.driver.swipe(523, 2308, 523, 300)
             self.driver.find_element(AppiumBy.XPATH,self.addnetwork_xp).click()
             time.sleep(1)
@@ -166,6 +177,7 @@ class Hotspot:
                     print("Correct your password")
             except:
                 print("you are already connected")
+            self.logger.info("wifi connection established")
 
 
         def verify_connection(self):

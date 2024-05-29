@@ -5,6 +5,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common import NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import  expected_conditions as Ec
+from  UTILITY.customlogger import  LogGen
 
 
 class Youtube():
@@ -36,7 +37,7 @@ class Youtube():
 
     # in case  differnet page opened
 
-
+    logger=LogGen.loggen()
     def __init__(self,driver):
         self.driver=driver
 
@@ -101,7 +102,7 @@ class Youtube():
 
     def pause_play(self):
         count=0
-        for i in range (10):
+        for i in range (6):
             time.sleep(45)
             try:
                 time.sleep(5)

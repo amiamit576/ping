@@ -1,0 +1,886 @@
+2024-05-27 17:12:48,239 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023AAA196F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-27 17:12:52,348 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023AAAB9A600>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-27 17:12:56,445 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023AAAB9B020>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-28 12:34:43,687 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D54808170>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-28 12:34:47,799 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D55129DC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-28 12:34:51,893 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021D5512BE00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session
+2024-05-28 12:38:02,320 - root - INFO - Start the test
+2024-05-28 12:38:02,320 - root - INFO - Setup is done
+2024-05-28 12:38:02,320 - root - INFO - Staring  the ping Action
+2024-05-28 12:38:19,372 - root - INFO - Logger is started
+2024-05-28 12:38:22,376 - root - INFO - large file downloading  started 
+2024-05-28 12:40:09,143 - root - INFO - Start the test
+2024-05-28 12:40:09,143 - root - INFO - Setup is done
+2024-05-28 12:40:09,143 - root - INFO - Staring  the ping Action
+2024-05-28 12:40:25,348 - root - INFO - Logger is started
+2024-05-28 12:40:28,359 - root - INFO - large file downloading  started 
+2024-05-28 12:43:48,344 - root - INFO - Start the test
+2024-05-28 12:43:48,344 - root - INFO - Setup is done
+2024-05-28 12:43:48,359 - root - INFO - Staring  the ping Action
+2024-05-28 12:44:05,116 - root - INFO - Logger is started
+2024-05-28 12:44:08,124 - root - INFO - large file downloading  started 
+2024-05-28 12:44:32,148 - root - INFO - Downloading  large file
+2024-05-28 12:44:50,643 - root - INFO - large file download  complete
+2024-05-28 12:47:29,819 - root - INFO - Start the test
+2024-05-28 12:47:29,819 - root - INFO - Setup is done
+2024-05-28 12:47:29,819 - root - INFO - Staring  the ping Action
+2024-05-28 12:47:47,204 - root - INFO - Logger is started
+2024-05-28 12:47:50,213 - root - INFO - large file downloading  started 
+2024-05-28 12:49:08,785 - root - INFO - Downloading  large file
+2024-05-28 12:49:49,327 - root - INFO - Start the test
+2024-05-28 12:49:49,327 - root - INFO - Setup is done
+2024-05-28 12:49:49,327 - root - INFO - Staring  the ping Action
+2024-05-28 12:50:05,130 - root - INFO - Logger is started
+2024-05-28 12:50:08,133 - root - INFO - large file downloading  started 
+2024-05-28 12:50:29,416 - root - INFO - Downloading  large file
+2024-05-28 12:50:40,541 - root - INFO - large file download  complete
+2024-05-28 12:53:48,885 - root - INFO - Start the test
+2024-05-28 12:53:48,885 - root - INFO - Setup is done
+2024-05-28 12:53:48,885 - root - INFO - Staring  the ping Action
+2024-05-28 12:54:04,287 - root - INFO - Logger is started
+2024-05-28 12:54:07,290 - root - INFO - large file downloading  started 
+2024-05-28 12:54:27,157 - root - INFO - Downloading  large file
+2024-05-28 12:54:50,539 - root - INFO - large file download  complete
+2024-05-28 13:19:02,088 - root - INFO - Start the test
+2024-05-28 13:19:02,088 - root - INFO - Setup is done
+2024-05-28 13:19:02,088 - root - INFO - Staring  the ping Action
+2024-05-28 13:19:16,038 - root - INFO - Logger is started
+2024-05-28 13:19:19,054 - root - INFO - large file downloading  started 
+2024-05-28 13:23:43,925 - root - INFO - Start the test
+2024-05-28 13:23:43,925 - root - INFO - Setup is done
+2024-05-28 13:23:43,925 - root - INFO - Staring  the ping Action
+2024-05-28 13:23:58,208 - root - INFO - Logger is started
+2024-05-28 13:24:01,217 - root - INFO - large file downloading  started 
+2024-05-28 13:26:45,347 - root - INFO - Downloading  large file
+2024-05-28 13:27:44,196 - root - INFO - large file download  complete
+2024-05-28 14:33:27,036 - root - INFO - Start the test
+2024-05-28 14:33:27,036 - root - INFO - Setup is done
+2024-05-28 14:33:27,036 - root - INFO - Staring  the ping Action
+2024-05-28 14:33:41,501 - root - INFO - Logger is started
+2024-05-28 14:33:44,507 - root - INFO - large file downloading  started 
+2024-05-28 14:34:35,020 - root - INFO - Start the test
+2024-05-28 14:34:35,020 - root - INFO - Setup is done
+2024-05-28 14:34:35,020 - root - INFO - Staring  the ping Action
+2024-05-28 14:34:49,507 - root - INFO - Logger is started
+2024-05-28 14:34:52,522 - root - INFO - large file downloading  started 
+2024-05-28 14:37:27,713 - root - INFO - Start the test
+2024-05-28 14:37:27,729 - root - INFO - Setup is done
+2024-05-28 14:37:27,729 - root - INFO - Staring  the ping Action
+2024-05-28 14:37:44,596 - root - INFO - Logger is started
+2024-05-28 14:37:47,609 - root - INFO - large file downloading  started 
+2024-05-28 14:39:49,178 - root - INFO - Downloading  large file
+2024-05-28 14:40:07,593 - root - INFO - large file download  complete
+2024-05-28 15:03:12,827 - root - INFO - Start the test
+2024-05-28 15:03:12,827 - root - INFO - Setup is done
+2024-05-28 15:03:12,827 - root - INFO - Staring  the ping Action
+2024-05-28 15:03:27,215 - root - INFO - Logger is started
+2024-05-28 15:06:22,217 - root - INFO - Start the test
+2024-05-28 15:06:22,217 - root - INFO - Setup is done
+2024-05-28 15:06:22,217 - root - INFO - Staring  the ping Action
+2024-05-28 15:06:36,356 - root - INFO - Logger is started
+2024-05-28 15:17:34,654 - root - INFO - large file downloading  started 
+2024-05-28 15:20:03,074 - root - INFO - Downloading  large file
+2024-05-28 15:21:09,857 - root - INFO - large file download  complete
+2024-05-28 15:28:49,132 - root - INFO - Start the test
+2024-05-28 15:28:49,132 - root - INFO - Setup is done
+2024-05-28 15:28:49,132 - root - INFO - Staring  the ping Action
+2024-05-28 15:29:03,591 - root - INFO - Logger is started
+2024-05-28 16:06:11,885 - root - INFO - Start the test
+2024-05-28 16:06:11,885 - root - INFO - Setup is done
+2024-05-28 16:06:11,885 - root - INFO - Staring  the ping Action
+2024-05-28 16:06:25,047 - root - INFO - Logger is started
+2024-05-28 16:14:20,204 - root - INFO - large file downloading  started 
+2024-05-28 16:15:35,330 - root - INFO - Downloading  large file
+2024-05-28 16:15:45,731 - root - INFO - large file download  complete
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,459 - root - INFO - Start the test
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Setup is done
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:15:54,491 - root - INFO - Staring  the ping Action
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:09,791 - root - INFO - Logger is started
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:29,817 - root - INFO - Dial pad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:16:57,239 - root - INFO - Dialpad is opened
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:02,285 - root - INFO - Number is entered
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:09,263 - root - INFO - call is reccived
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:17:13,883 - root - INFO - timer is visible
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:18:02,804 - root - INFO - Mesage icon is opened
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Start the test
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Setup is done
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:22,580 - root - INFO - Staring  the ping Action
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:38,584 - root - INFO - Logger is started
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:19:54,053 - root - INFO - Dial pad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,448 - root - INFO - Dialpad is opened
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:02,917 - root - INFO - Number is entered
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:10,035 - root - INFO - call is reccived
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:38,233 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:20:49,797 - root - INFO - call is reccived
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:27,387 - root - ERROR - Reciever end is not picking or switch Off or out of range
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:35,285 - root - INFO - call is reccived
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:21:47,946 - root - INFO - timer is visible
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:20,170 - root - INFO - Mesage icon is opened
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:22:27,729 - root - INFO - number is entered
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:23:03,683 - root - INFO - message is sent
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:32,870 - root - INFO - Mesage icon is opened
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:45,193 - root - INFO - number is entered
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:24:53,242 - root - INFO - message is sent
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:25:29,444 - root - INFO - Mesage icon is opened
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:03,742 - root - INFO - number is entered
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:26:32,422 - root - INFO - message is sent
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:39,105 - root - INFO - Mesage icon is opened
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:50,791 - root - INFO - number is entered
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:27:59,829 - root - INFO - message is sent
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:28:29,484 - root - INFO - Mesage icon is opened
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:03,710 - root - INFO - number is entered
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:29:32,003 - root - INFO - message is sent
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:39,177 - root - INFO - Mesage icon is opened
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:50,795 - root - INFO - number is entered
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:30:56,835 - root - INFO - message is sent
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - large file downloading  started 
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:31:18,184 - root - INFO - Download  start
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Start the test
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Setup is done
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:34,294 - root - INFO - Staring  the ping Action
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:33:48,283 - root - INFO - Logger is started
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:06,648 - root - INFO - Dial pad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:30,253 - root - INFO - Dialpad is opened
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:32,237 - root - INFO - Number is entered
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:38,822 - root - INFO - call is reccived
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:34:44,732 - root - INFO - timer is visible
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:35:29,610 - root - INFO - Mesage icon is opened
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:08,228 - root - INFO - number is entered
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:36:31,096 - root - INFO - message is sent
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:39,846 - root - INFO - Mesage icon is opened
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:37:53,797 - root - INFO - number is entered
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:00,822 - root - INFO - message is sent
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:38:29,572 - root - INFO - Mesage icon is opened
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:39:32,650 - root - INFO - number is entered
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:40:04,311 - root - INFO - message is sent
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:12,911 - root - INFO - Mesage icon is opened
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:21,791 - root - INFO - number is entered
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:41:28,837 - root - INFO - message is sent
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:42:02,706 - root - INFO - Mesage icon is opened
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Start the test
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Setup is done
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:15,012 - root - INFO - Staring  the ping Action
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:45:29,533 - root - INFO - Logger is started
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:26,073 - root - INFO - Dial pad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:29,749 - root - INFO - Dialpad is opened
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:46:58,395 - root - INFO - Number is entered
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:05,402 - root - INFO - call is reccived
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:47:10,716 - root - INFO - timer is visible
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:02,770 - root - INFO - Mesage icon is opened
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:48:30,956 - root - INFO - number is entered
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:49:05,770 - root - INFO - message is sent
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:12,873 - root - INFO - Mesage icon is opened
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:22,905 - root - INFO - number is entered
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:50:28,845 - root - INFO - message is sent
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:02,740 - root - INFO - Mesage icon is opened
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:51:30,830 - root - INFO - number is entered
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:52:05,319 - root - INFO - message is sent
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:37,130 - root - INFO - Mesage icon is opened
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:46,190 - root - INFO - number is entered
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:53:53,831 - root - INFO - message is sent
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:54:29,815 - root - INFO - Mesage icon is opened
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:03,823 - root - INFO - number is entered
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:55:32,891 - root - INFO - message is sent
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:40,071 - root - INFO - Mesage icon is opened
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:49,795 - root - INFO - number is entered
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:56:55,828 - root - INFO - message is sent
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,225 - root - INFO - large file downloading  started 
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:57:16,272 - root - INFO - Download  start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:58:29,221 - root - INFO - download start
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:29,651 - root - INFO - Downloading  large file
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:35,866 - root - INFO - pass the test download
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:39,553 - root - INFO - large file download  complete
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:43,413 - root - INFO - Opend Hotspot
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 11:59:44,649 - root - INFO - check on or off
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:02:00,756 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Start the test
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Setup is done
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:30,246 - root - INFO - Staring  the ping Action
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:12:44,466 - root - INFO - Logger is started
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:09,716 - root - INFO - Dial pad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:27,998 - root - INFO - Dialpad is opened
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:29,529 - root - INFO - Number is entered
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:36,129 - root - INFO - call is reccived
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:13:48,766 - root - INFO - timer is visible
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:20,788 - root - INFO - Mesage icon is opened
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:14:33,107 - root - INFO - number is entered
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:15:04,296 - root - INFO - message is sent
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:12,862 - root - INFO - Mesage icon is opened
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:22,632 - root - INFO - number is entered
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:16:28,849 - root - INFO - message is sent
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:17:04,255 - root - INFO - Mesage icon is opened
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:18:31,094 - root - INFO - number is entered
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:19:05,120 - root - INFO - message is sent
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:14,812 - root - INFO - Mesage icon is opened
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:26,807 - root - INFO - number is entered
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:35,827 - root - INFO - message is sent
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - large file downloading  started 
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:20:58,221 - root - INFO - Download  start
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:22:29,216 - root - ERROR - download  element  not appear
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:23:29,286 - root - INFO - Downloading  large file
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:04,643 - root - INFO - pass the test download
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:08,877 - root - INFO - large file download  complete
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:12,659 - root - INFO - Opend Hotspot
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:24:14,009 - root - INFO - check on or off
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:03,149 - root - INFO - changed the setting  of hotspot
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 
+2024-05-29 12:26:11,920 - root - INFO -  changed the device 

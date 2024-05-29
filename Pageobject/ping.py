@@ -38,6 +38,7 @@ class Ping_Action:
     result_share_app = '//android.widget.TextView[@resource-id="android:id/text1" and @text="Gmail"]'
     gmail_mail_txt_Xp='//android.view.ViewGroup[@resource-id="com.google.android.gm:id/peoplekit_autocomplete_chip_group"]/android.widget.EditText'
     gmail_send_button='//android.widget.Button[@content-desc="Send"]'
+    inertial_close_button='//android.widget.ImageButton[@content-desc="Interstitial close button"]'
 
 
 
@@ -127,20 +128,26 @@ class Ping_Action:
             self.check_resultpage(mail)
 
         except NoSuchElementException:
-            waitt0EndAdd=WebDriverWait(self.driver,30)
-            waitt0EndAdd.until(Ec.visibility_of_element_located((AppiumBy.XPATH,self.cross_x_xp)))
+            waitt0EndAdd=WebDriverWait(self.driver,60)
+
             try:
-                another_cross=self.driver.find_element(AppiumBy.XPATH, self.cross_x_xp)
+                waitt0EndAdd.until(Ec.visibility_of_element_located((AppiumBy.XPATH, self.inertial_close_button)))
+                another_cross=self.driver.find_element(AppiumBy.XPATH, self.inertial_close_button)
                 another_cross.click()
 
 
 
-            except:
+            except(NoSuchElementException,TimeoutError):
                 close_element = self.driver.find_element(AppiumBy.XPATH, self.close_add_xp)
                 if close_element.is_displayed():
                     close_element.click()
                 else:
-                        print("Another type of Add appear")
+                        try:
+                            cross=self.driver.find_element(AppiumBy.XPATH,self.cross_x_xp)
+                            if cross.is_displayed():
+                                cross.click()
+                        except:
+                            print("Another type of Add appear")
 
             time.sleep(3)
             self.check_resultpage(mail)

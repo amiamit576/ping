@@ -5,9 +5,10 @@ import pytest
 capabilities = dict(
     platformName='Android',
     automationName='uiautomator2',
-    udid='1a565c34',
+    udid='fa499298',
     ignoreHiddenApiPolicyError = 'true',
-    noReset = 'true'
+    noReset = 'true',
+    newCommandTimeout=3600
       )
 appium_server_url = 'http://localhost:4723'
 
@@ -20,9 +21,10 @@ def setup():
 capabilitie = dict(
     platformName='Android',
     automationName='uiautomator2',
-    udid='eb90285c',
+    udid='8bc7c3ea',
     ignoreHiddenApiPolicyError = 'true',
-    noReset = 'true'
+    noReset = 'true',
+    newCommandTimeout = 3600
       )
 appium_ser_url = 'http://localhost:4723'
 

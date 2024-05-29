@@ -7,7 +7,7 @@ from selenium.common import NoSuchElementException, TimeoutException
 from  selenium.webdriver.support import expected_conditions as EC
 from  selenium.webdriver.support.wait import  WebDriverWait
 
-
+from UTILITY.customlogger import LogGen
 
 
 class Long_msg:
@@ -25,8 +25,7 @@ class Long_msg:
     double_click_xpath='//android.widget.ImageView[@resource-id="com.google.android.apps.messaging:id/status_icon"]'
     navigate_back_xpath='//android.widget.ImageButton[@content-desc="Navigate up"]'
 
-
-
+    logger=LogGen.loggen()
 
     def __init__(self,driver):
         self.driver=driver
@@ -39,6 +38,7 @@ class Long_msg:
     def open_Msg(self):
         self.driver.find_element(AppiumBy.XPATH,self.msg_xpath).click()
         sleep(1)
+        self.logger.info("Mesage icon is opened")
 
     def compose_msg(self):
         self.driver.find_element(AppiumBy.XPATH,self.start_chat_Xpath).click()
@@ -49,12 +49,13 @@ class Long_msg:
         sleep(2)
         self.driver.find_element(AppiumBy.XPATH,self.confirm_contact_xpath).click()
         sleep(1)
-
+        self.logger.info("number is entered")
     def type_Msg(self):
         self.driver.find_element(AppiumBy.XPATH, self.text_area_xpath).clear()
         sleep(1)
         self.driver.find_element(AppiumBy.XPATH,self.text_area_xpath).send_keys((self.message))
         sleep(2)
+        self.logger.info("message is sent")
 
     def send_Msg_Verify(self):
 
@@ -66,17 +67,18 @@ class Long_msg:
                     # If the send message button is not found, attempt to click the send button
                     self.driver.find_element(AppiumBy.XPATH, self.send_button_xpath).click()
                 except NoSuchElementException:
-                    print("Send button not found")
-
+                    self.logger.error("Send button not found")
+                    self.driver.save_screenshot(".\\Scrrenshots\\" + "sendbtn_absent.png")
             # Use WebDriverWait for more precise waiting
             confirm_delivery = WebDriverWait(self.driver, 10)
             try:
                 # Wait until the double click element is visible
                 try:
                     confirm_delivery.until(EC.visibility_of_element_located((AppiumBy.XPATH, self.double_click_xpath)))
-                    print("Message delivered")
+                    self.logger.info("Message delivered")
                 except NoSuchElementException:
-                    print("Delivery report  confirmation  btn is not appeared within time")
+                    self.logger.error("Delivery report  confirmation  btn is not appeared within time")
+                    self.driver.save_screenshot(".\\Scrrenshots\\" + "undelivered_msg.png")
 
             except TimeoutException:
                  print("Message is not delivered within the specified time")

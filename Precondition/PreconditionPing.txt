@@ -1,0 +1,8 @@
+1. first make sure  no application is running   in background  by   clicking  clear All
+2. Make  sure  before starting test   all application on Home Screeen ping  setting call message app
+3.Make sure both  the device has  one si each  before starting  the test
+3. Make  sure we are on  home Scrren before starting  the test on both  device
+4. All sms setting  should allready been performed  to aviod  popup
+5.make sure  youtube is working  fine and not unecessary  popup  occcur
+
+

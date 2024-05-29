@@ -4,7 +4,7 @@ from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as Ec
-
+from UTILITY.customlogger import LogGen
 
 class Large_download:
 
@@ -12,7 +12,7 @@ class Large_download:
 
     chrome_icon_xp='//android.widget.TextView[@content-desc="Chrome"]'
     add_tab_xp='//android.widget.ImageButton[@content-desc="Switch or close tabs"]'
-    open_new_tab='//android.widget.TextView[@resource-id="com.android.chrome:id/new_tab_view_desc"]'
+    open_new_tab='//android.widget.Button[@content-desc="New tab"]'
     search_textbox_xp='//android.widget.EditText[@resource-id="com.android.chrome:id/search_box_text"]'
     searched_item_xp='//android.widget.TextView[@resource-id="com.android.chrome:id/line_1" and @text="Test Files"]'
     download_details_xp='//android.widget.Button[@resource-id="com.android.chrome:id/message_primary_button"]'
@@ -24,11 +24,16 @@ class Large_download:
     pause_resume_btn_xp='//android.widget.ImageButton[@content-desc="Pause" or @content-desc="Resume"]'
     check_paused_or_dwnloading='//android.widget.TextView[@resource-id="com.android.chrome:id/caption"]'
 
+
+
+
+    logger=LogGen.loggen()
     def __init__(self,driver):
         self.driver=driver
 
 
     def big_file_download(self,url):
+        self.logger.info("Download  start")
         self.driver.find_element(AppiumBy.XPATH,self.chrome_icon_xp).click()
         time.sleep(2)
         self.driver.find_element(AppiumBy.XPATH,self.add_tab_xp).click()
@@ -42,13 +47,14 @@ class Large_download:
             file_download=WebDriverWait(self.driver,10)
             file_download.until(Ec.visibility_of_element_located((AppiumBy.XPATH,self.ten_b_file_xp)))
             self.driver.find_element(AppiumBy.XPATH,self.ten_b_file_xp).click()
+            self.logger.info("download start")
 
 
 
 
         except NoSuchElementException:
              time.sleep(1)
-             print("download  element  not appear")
+             self.logger.error("download  element  not appear")
 
         try:
             downloadAgain_options_appear =WebDriverWait(self.driver,60)
@@ -77,12 +83,14 @@ class Large_download:
                 downloadconfirm=self.driver.find_element(AppiumBy.XPATH,self.check_paused_or_dwnloading).text
                 phrase = "paused"
                 if phrase not in downloadconfirm:
-                    print("pass the test")
+                    self.logger.info("pass the test download")
+
                 else:
                     print ("video download paused")
 
         except NoSuchElementException:
-            print("Downloading is not started")
+            self.logger.error("Downloading is not started")
+            self.driver.save_screenshot(".\\Scrrenshots\\" + "failed_download.png")
 
 
         self.driver.back()
